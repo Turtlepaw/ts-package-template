@@ -1,14 +1,8 @@
 {
-  "name": "utilsfordiscordjs",
-  "version": "1.1.8",
-  "description": "🛠️ Handy utilities for Discord bots.",
+  "name": "your_package",
+  "version": "1.0.0",
+  "description": "Your package's description",
   "main": "dist/index.js",
-  "devDependencies": {
-    "@discordjs/rest": "^0.5.0",
-    "@types/node": "^18.0.0",
-    "discord-api-types": "^0.34.0",
-    "dotenv": "^16.0.3"
-  },
   "scripts": {
     "build": "rm -rf dist/ & tsc",
     "test": "node ./tests/index.js",
@@ -17,24 +11,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/turtlepaws-workshop/paintfordiscord.git"
+    "url": "git+https://github.com/user/repo.git"
   },
-  "keywords": [
-    "discord",
-    "discord.js",
-    "utilsfordiscord",
-    "discord-utils",
-    "utils",
-    "discord.js-utils"
-  ],
+  "keywords": [],
   "author": "Turtlepaw",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/turtlepaws-workshop/paintfordiscord/issues"
+    "url": "https://github.com/user/repo/issues"
   },
-  "homepage": "https://github.com/turtlepaws-workshop/paintfordiscord#readme",
+  "homepage": "https://github.com/user/repo#readme",
   "dependencies": {
-    "discord.js": "^14.6.0",
     "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18"
   }
 }

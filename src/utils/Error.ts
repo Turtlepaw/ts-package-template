@@ -1,11 +1,13 @@
-//ufd = utils for discord
-export class ufdError extends Error {
+// You can name this whatever you want
+// This is the error class.
+export class ModuleError extends Error {
     constructor(message: string) {
         super(message);
-        this.name = "[PFD_Error]";
+        // You might want to replace this
+        this.name = "[YourPackage_Error]";
     }
 
     public static throw(message: string) {
-        throw new ufdError(message);
+        throw new ModuleError(message);
     }
 }

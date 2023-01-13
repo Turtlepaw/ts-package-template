@@ -1,3 +1,5 @@
+// Number/Id generator
+
 const numbers = [
     "1",
     "2",
@@ -10,12 +12,12 @@ const numbers = [
     "9"
 ];
 
-export function randomNumber(){
-    const n = Math.floor(Math.random() * Math.floor(numbers.length-1)) + 1;
+export function randomNumber() {
+    const n = Math.floor(Math.random() * Math.floor(numbers.length - 1)) + 1;
 
     return numbers[n];
 }
 
-export function generateId(){
+export function generateId() {
     return `${randomNumber()}${randomNumber()}${randomNumber()}${randomNumber()}${randomNumber()}`;
 }
